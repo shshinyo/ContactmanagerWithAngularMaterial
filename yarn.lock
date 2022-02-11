@@ -26,9 +26,15 @@
     minimist "^1.2.0"
     rxjs "^5.5.2"
 
-"@angular/animations@^5.0.0":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.0.3.tgz#f08b07007b149fa12679c346fa55820f544b19e0"
+"@angular/animations@^5.0.3":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.11.tgz#2bd3fe9e72916ca28de9bfaaddf0cb936565a0b8"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/cdk@^5.0.0-rc.1":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-5.2.5.tgz#cae2b12e1990a692dd267a73fdb1d49db37f9604"
   dependencies:
     tslib "^1.7.1"
 
@@ -123,6 +129,10 @@
   dependencies:
     tslib "^1.7.1"
 
+"@angular/flex-layout@^2.0.0-beta.10-4905443":
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-rc.1.tgz#96fa7f85b2c4bacf2784913a2d607e2ed23dc7f1"
+
 "@angular/forms@^5.0.0":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.0.3.tgz#207f92c2bd89660dda5858ef58d1eac1f2caf1a7"
@@ -138,6 +148,12 @@
 "@angular/language-service@^5.0.0":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-5.0.3.tgz#e8c21581e0464ea50363e8f0d49d7b6a7e6b3cbf"
+
+"@angular/material@^5.0.0-rc.1":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.2.5.tgz#287af95d234e0644244d9db565f7a05c10b737f8"
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@^5.0.0":
   version "5.0.3"
@@ -911,8 +927,8 @@ chokidar@^1.4.1, chokidar@^1.4.2, chokidar@^1.6.0, chokidar@^1.7.0:
     fsevents "^1.0.0"
 
 chownr@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -2344,6 +2360,10 @@ globule@^1.0.0:
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
 
 handle-thing@^1.2.5:
   version "1.2.5"
